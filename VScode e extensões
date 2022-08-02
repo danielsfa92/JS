@@ -1,0 +1,11 @@
+Eu escollhi o editor de código fonte Visual Studio Code pela facilidade da interface, versatilidade de poder desenvolver em outras linguagens e HTML e CSS. 
+Um outro pronto é a variedade de plugins/extensões as quais podem ser instaladas e assim deixar o programa de forma mais amigável para quem está começando 
+ou já é experiente.
+
+Algumas extensões instaladas:
+
+Live Server: Apesar de ainda não está trabalhando com html e css. Essa extensão ajuda na visualização do trabalho ao analisar a "tríade" do front end (HTML,CSS e JS) sem precisar ir no diretório do projeto.
+
+BracketPair Colorizer 2: Apesar de descotinuada, ajuda ao destacar as chaves dentro do código e fazendo com que o usuário inexperiente não se perca dentro do código.
+
+Color Highlight: Ajuda bastante os desenvolvedores front-end. Ao mostrar uma prévia das cores escolhidas dentro dos trabalhos.
