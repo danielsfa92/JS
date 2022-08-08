@@ -1,0 +1,33 @@
+algoritmo "Calculadora Softex"
+// Autor :   Daniel Soares
+// Data : 08/08/2022
+// Seção de Declarações 
+var
+num1,num2,resultado: real
+operacao: caractere
+inicio
+   Escreval("----------------------------")
+   Escreval("    CALCULADORA SOFTEX      ")
+   Escreval("----------------------------")
+   Escreval(" Digite o primeiro número: ")
+   leia(num1)
+   Escreval(" Escolha um operador: '+', '-', '*', '/' ")
+   leia(operacao)
+   Escreval(" Digite o segundo número: ")
+   leia(num2)
+   Se operacao = "+" entao
+      resultado <- num1 + num2
+   senao
+      se operacao = "-" entao
+         resultado <- num1 - num2
+      senao
+         se operacao = "*" ou "x" entao
+            resultado <- num1 * num2
+         senao
+               operacao = "/" entao
+               resultado <- num1 / num2
+         fimse
+      fimse
+   fimse
+   
+   Escreval("Resultado = ", resultado)
