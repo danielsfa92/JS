@@ -1,0 +1,30 @@
+function Banco(conta, saldo, tipo) {
+  this.conta = conta
+  this.saldo = saldo
+  this.tipoDeConta = tipo
+
+  this.numeroDaConta = function (numeroDaConta) {
+    return numeroDaConta
+  }
+  this.consultarSaldo = function () {
+    return this.saldo
+  }
+  this.deposito = function (deposito) {
+    this.saldo += deposito
+  }
+  this.saque = function (saque) {
+    this.saldo -= saque
+  }
+}
+
+let Daniel = new Banco(4690147, 920.00, 'pessoa fisica')
+
+console.log(Daniel.conta)
+console.log(Daniel.saldo)
+console.log(Daniel.tipoDeConta)
+
+console.log(Daniel.numeroDaConta(4690147))
+Daniel.deposito(80.00)
+console.log(Daniel.consultarSaldo())
+Daniel.saque(500.00)
+console.log(Daniel.consultarSaldo())
