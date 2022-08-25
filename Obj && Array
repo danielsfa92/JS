@@ -7,13 +7,11 @@ const bicicleta = {
 const marcas = ["Riva", "Chandan", "República"];
 
 function listaPropriedades(objeto) {
-  let propriedades = [];
   for (let propriedade in objeto) propriedades.push(propriedade);
   return propriedades;
 }
 
 let listaElementos = (array) => {
-  let elementos = [];
   for (let elemento of array) elementos.push(elemento);
   return elementos;
 };
